@@ -1,4 +1,4 @@
-# bot_main.py
+#main.py
 import json
 import time
 from telegram import Update
