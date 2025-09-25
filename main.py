@@ -10,7 +10,7 @@ import os
 load_dotenv()  # فایل .env رو میخونه
 TOKEN = os.getenv("TELEGRAM_TOKEN")  # مقدار توکن رو میگیره
 
-from shoot import register_shoot_handlers  # رجیستر هندلرهای شلیک
+from shoot import register_shoot_handlers  # رجیستر هندلرdهای شلیک
 
 DATA_FILE = "data.json"
 TRIGGER_KEYWORDS = ["بات هیتلر کصخله", "درود بر ضحاک"]
