@@ -2,7 +2,7 @@ import json
 import time
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filters
-from config import TOKEN
+
 
 DATA_FILE = "data.json"
 TRIGGER_KEYWORDS = ["بات هیتلر کصخله", "درود بر ضحاک"]

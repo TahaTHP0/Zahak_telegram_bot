@@ -3,7 +3,12 @@ import json
 import time
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filters
-from config import TOKEN
+from dotenv import load_dotenv
+import os
+
+# ← اضافه کردن این سه خط برای استفاده از .env
+load_dotenv()  # فایل .env رو میخونه
+TOKEN = os.getenv("TELEGRAM_TOKEN")  # مقدار توکن رو میگیره
 
 from shoot import register_shoot_handlers  # رجیستر هندلرهای شلیک
 
