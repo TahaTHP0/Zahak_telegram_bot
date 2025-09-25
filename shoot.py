@@ -77,7 +77,7 @@ def do_brain_take(initiator_id: str, target_id: str):
 # -------------------------
 async def text_shoot_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """
-    هندلر متن: وقتی کاربران دقیقاً متن 'مغزتو میخوام' می‌نویسند.
+    هندلر متن: وقتیl کاربران دقیقاً متن 'مغزتو میخوام' می‌نویسند.
     باید پیام ریپلای به پیام هدف باشد تا target مشخص شود.
     """
     if update.message is None or not update.message.text:
